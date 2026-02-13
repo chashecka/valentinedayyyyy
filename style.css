@@ -1,0 +1,156 @@
+.l {
+    color: rgb(48, 14, 14); /* Changes the text color of all h1 elements */
+    text-align: center;
+    text-size-adjust: 80%;
+    border-style: dashed solid;
+    border-radius: 50%;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 50;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Pacifico';
+
+}
+
+body{
+    background-color:black;
+}
+
+.fit-picture {
+  width: 1700px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 30%;
+}
+
+.goldencheese{
+  width: 1000px;
+  display: block;
+  margin-right: auto;
+  opacity: 40%;
+  border-style: dashed solid;
+  border-radius: 50%;
+}
+
+.saiouma{
+  width: 1000px;
+  display: block;
+  margin-right: auto;
+  opacity: 40%;
+  border-style: dashed solid;
+  border-radius: 50%;
+  right: 0;
+}
+ 
+.wave-text {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    color: #410101;
+    font-family: 'Arial', sans-serif;
+    justify-content: right;
+    align-items: right;
+    position: absolute;
+}
+
+.wave-text span {
+    display: inline-block;
+    font-size: 4rem;
+    animation: wave 2s ease-in-out infinite;
+}
+
+.wave-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+.wave-text span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.wave-text span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+.wave-text span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.j {
+    color: rgb(48, 14, 14); /* Changes the text color of all h1 elements */
+    text-align: center;
+    text-size-adjust: 80%;
+    border-style: dashed solid;
+    border-radius: 50%;
+}
+
+button {
+    width: 500px;
+    height: 250px;
+    color: rgb(48, 14, 14);
+    background-color: rgb(92, 30, 40);
+      font-family: "Pacifico", cursive;
+  font-weight: 50;
+  font-style: normal;
+  font-size: larger;
+}
+
+.interactive-btn:active {
+    background-color: #3e8e41; /* Even darker green on click/active state */
+    transform: translateY(2px); /* Pushes button down slightly */
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#yesBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff4d6d;
+}
+
+#noBtn {
+  background-color: #444;
+  color: white;
+  position: absolute;
+}
+
+#message {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #ff4d6d;
+}
+
